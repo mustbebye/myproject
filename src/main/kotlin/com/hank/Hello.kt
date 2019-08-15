@@ -5,6 +5,17 @@ fun main() {
 //    Human().hello()
     val h = Human()
     h.hello()
+
+    /*
+    val (value) can not change
+    var (variable) can change
+     */
+    var age = 19
+    age = 20
+    var weight = 66.5f
+    var name: String
+    name = "Hank"
+
 }
 
 class Human {
